@@ -1,6 +1,6 @@
 
 .container{
-    margin: 20px;
+    margin: 40px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .menu ul{
@@ -93,8 +93,14 @@
     display: flex;
 }
 .filtres {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
     padding-top: 40px;
     padding-bottom: 20px;
+}
+.filtres h2{
+    font-size: 12px;
 }
 .filtres li{
     display: inline-block;
@@ -137,12 +143,130 @@ i.fa-info{
     text-align: center;
     border: 2px solid #F2F2F2;
     border-radius: 50%;
-    margin-left: 10px;
+    margin-left: 1px;
     margin-right: 10px;
     color: #0065FC;
     line-height: 20px;
 }
+#heb{
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    width: 60%;
+    height: 40%;
+    margin-top: 40px;
+}
+#heb h1,#affsup{
+    padding-left: 40px;
+}
+#heb h3,p{
+    padding-left: 20px;
+}
+#heb #affsup{
+    font-weight: bold;
 
+}
+#heb h3{
+    font-size: 12px;
+}
+#listhot1 img{
+    object-fit: cover;
+    width: 235px;
+    height: 115px;
+    margin: 10px;
+    border-radius: 20px 20px 0px 0px;
+    margin: 5px;
+}
+#listhot1 a{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: gray 0px 0px 6px;
+}
+#listhot1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#listhot1 .h3,p,a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#listhot2 img{
+    object-fit: cover;
+    width: 235px;
+    height: 115px;
+    margin: 10px;
+    border-radius: 20px 20px 0px 0px;
+    margin: 5px;
+}
+#listhot2 a{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: gray 0px 0px 6px;
+    margin-top: 20px;
+}
+#listhot2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+#listhot2 .h3,p,a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#listhot3 img{
+    object-fit: cover;
+    height: 120px;
+    margin: 10px;
+}
+.heberg{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+}
+#hebpop{
+    display: flex;
+    flex-direction: column;    
+    background-color: #F2F2F2;
+    border-radius: 20px;
+}
+#hebpop a{
+    display: flex;
+    justify-content: flex-start; 
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 0px 0px 6px gray;
+}
+#hebpop h3{
+    font-size: 12px;
+    text-align:justify; /*Comment faire en sorte que mon texte aille à la ligne?,puis je utiliser du br en html?*/
+}
+#titrepop{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+#hebpop img{
+    object-fit: cover;
+    height: 130px;
+    width: 120px;
+    border-radius: 20px 0px 0px 20px ;
+    margin: 5px;
+}
+/* footer partie basse du site*/
 footer
 {
 	display: flex;
